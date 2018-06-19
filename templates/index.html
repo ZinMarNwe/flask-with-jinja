@@ -1,10 +1,11 @@
-
+<!Doctype>
 <html>
 	<head><title>Flask with jinja</title></head>
 	<body>
 		<ul>
 
-			<li><img src="{{ url_for('static', filename="cumdylogo.jpg') }}"></li>
+			<li><img src="{{ url_for('static', filename='cumdylogo.jpg') }}"></li>
+			{# This is comment block . #}
 			{% set name = "ZinMarNwe" %}
 			{% set user_name = "ZinMarNwe" %}
 			<li>{{ name }}</li>
